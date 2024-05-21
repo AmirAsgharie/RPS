@@ -12,6 +12,8 @@ function set() {
 }
 
 function check() {
+    let b = document.getElementById("b");
+    b.innerHTML = "Try Again!";
     let u = document.querySelector('input[name="run"]:checked').value;
     console.log(u);
     const choises = ["Paper", "Scissors", "Rock"];
